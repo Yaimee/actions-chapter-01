@@ -8,9 +8,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       -name: Step one
-      uses: actions/checkout@v2
+       uses: actions/checkout@v2
       -name: Step two
-      run: env | sort 
+       run: env | sort 
   job2:
     name: Second job
     runs-on: windows-latest
